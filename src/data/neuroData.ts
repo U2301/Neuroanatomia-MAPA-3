@@ -11,7 +11,7 @@ import {
 
 /* =========================================================================
    1. NODOS DEL GRAFO INTERACTIVO DE CONOCIMIENTO (VIS.JS)
-      Exclusivamente con toda la información del apunte de Desarrollo del SN
+      Exclusivamente con toda y cada una de las partes del apunte
    ========================================================================= */
 export const neuroNodes: NeuroNode[] = [
   // Raíz Principal
@@ -291,7 +291,7 @@ export const neuroNodes: NeuroNode[] = [
     period: "Cerebro: 400 cm²",
     category: "Proceso de Hominización",
     group: "hominizacion",
-    desc: "Punto de partida desde el Ancestro común hacia Australopitecos, el cual presenta un cerebro de 400 cm².",
+    desc: "Punto de partida desde el Ancestro común hacia Australopitecos, el cual presenta un cerebro de 400 cm² (400cm^2).",
     exam: "Secuencia inicial: Ancestro común -> Australopitecos (cerebro 400 cm²).",
     colorGroup: "#704812"
   },
@@ -301,7 +301,7 @@ export const neuroNodes: NeuroNode[] = [
     period: "Cerebro: 600 - 700 cm²",
     category: "Proceso de Hominización",
     group: "hominizacion",
-    desc: "Eslabón del género Homo posterior a los Australopitecos, con un tamaño de cerebro de 600-700 cm².",
+    desc: "Eslabón del género Homo posterior a los Australopitecos, con un tamaño de cerebro de 600-700 cm² (600-700cm^2).",
     exam: "Homo habilis: cerebro de 600-700 cm².",
     colorGroup: "#704812"
   },
@@ -311,7 +311,7 @@ export const neuroNodes: NeuroNode[] = [
     period: "Cerebro: 800 - 1000 cm²",
     category: "Proceso de Hominización",
     group: "hominizacion",
-    desc: "Continuación evolutiva después de Homo habilis, alcanzando un cerebro de 800-1000 cm².",
+    desc: "Continuación evolutiva después de Homo habilis, alcanzando un cerebro de 800-1000 cm² (800-1000cm^2).",
     exam: "Homo Erectus: cerebro de 800-1000 cm².",
     colorGroup: "#704812"
   },
@@ -321,7 +321,7 @@ export const neuroNodes: NeuroNode[] = [
     period: "Cerebro: 1500 cm²",
     category: "Proceso de Hominización",
     group: "hominizacion",
-    desc: "Sucesor en la línea de hominización después de Homo Erectus, con un cerebro de 1500 cm².",
+    desc: "Sucesor en la línea de hominización después de Homo Erectus, con un cerebro de 1500 cm² (1500^2).",
     exam: "Homo neanderthal: cerebro de 1500 cm².",
     colorGroup: "#704812"
   },
@@ -331,7 +331,7 @@ export const neuroNodes: NeuroNode[] = [
     period: "Cerebro: 1500 cm²",
     category: "Proceso de Hominización",
     group: "hominizacion",
-    desc: "El ser humano actual al final de la secuencia de hominización, con un cerebro de 1500 cm² y adquisición de áreas terciarias (PTO y prefrontales que abarcan 1/4 del total del cerebro).",
+    desc: "El ser humano actual al final de la secuencia de hominización, con un cerebro de 1500 cm² (1500 cm^2) y adquisición de áreas terciarias (PTO y prefrontales que abarcan 1/4 del total del cerebro).",
     exam: "Homo sapiens: cerebro de 1500 cm² (igual medida numérica que neanderthal; la diferencia está en las conexiones y velocidad de procesamiento).",
     colorGroup: "#2b553c"
   },
@@ -346,39 +346,71 @@ export const neuroNodes: NeuroNode[] = [
     colorGroup: "#944920"
   },
 
-  // Presiones selectivas y Evolución de Darwin
+  // 5 Presiones Selectivas Desglosadas Individualmente
   {
     id: 33,
-    label: "5 Presiones Selectivas en Homínidos",
-    period: "Factores Impulsores del SN",
+    label: "Presiones Selectivas en Homínidos",
+    period: "5 Factores Clave de Evolución del SN",
     category: "Evolución, Darwin y Presiones Selectivas",
     group: "darwin",
-    desc: "Las 5 presiones selectivas en la evolución del SN en Homínidos son: 1) Locomoción de manera bípeda eficiente y versátil, 2) Incorporación de la carne a la dieta, 3) Industria lítica, 4) Uso del fuego, y 5) Lenguaje.",
-    exam: "Las 5 presiones: 1. Locomoción bípeda eficiente y versátil, 2. Incorporación de la carne a la dieta, 3. Industria lítica, 4. Uso del fuego, 5. Lenguaje.",
+    desc: "Factores selectivos que impulsaron la evolución del SN en Homínidos: 1) Locomoción bípeda eficiente y versátil, 2) Incorporación de la carne a la dieta, 3) Industria lítica, 4) Uso del fuego, y 5) Lenguaje.",
+    exam: "Las 5 presiones: Locomoción bípeda, Carne en la dieta, Industria lítica, Uso del fuego, Lenguaje.",
     colorGroup: "#2b553c"
   },
   {
     id: 34,
-    label: "Bipedestación, Dieta Cárnica e Industria Lítica",
-    period: "Presiones Selectivas 1, 2 y 3",
+    label: "1. Locomoción Bípeda Eficiente y Versátil",
+    period: "Presión Selectiva 1",
     category: "Evolución, Darwin y Presiones Selectivas",
     group: "darwin",
-    desc: "Primeras tres presiones selectivas en homínidos: 1) Locomoción de manera bípeda eficiente y versátil; 2) Incorporación de la carne a la dieta; 3) Industria lítica (fabricación y uso de herramientas de piedra).",
-    exam: "Presiones 1 a 3: Locomoción de manera bípeda eficiente y versátil + Incorporación de la carne a la dieta + Industria lítica.",
+    desc: "Locomoción de manera bípeda eficiente y versátil: reorganizó el soporte corporal, liberó las manos y demandó nuevas adaptaciones de equilibrio y control motor.",
+    exam: "Presión 1: Locomoción de manera bípeda eficiente y versátil.",
     colorGroup: "#8c5e3c"
   },
   {
     id: 35,
-    label: "Uso del Fuego y Lenguaje",
-    period: "Presiones Selectivas 4 y 5",
+    label: "2. Incorporación de la Carne a la Dieta",
+    period: "Presión Selectiva 2 (Energía)",
     category: "Evolución, Darwin y Presiones Selectivas",
     group: "darwin",
-    desc: "Cuarta y quinta presiones selectivas en la evolución del SN en homínidos: 4) Uso del fuego y 5) Lenguaje.",
-    exam: "Presiones 4 y 5: Uso del fuego y Lenguaje.",
-    colorGroup: "#944920"
+    desc: "Incorporación de la carne ('caene') a la dieta: aportó nutrientes densos y energía requerida para sostener el alto consumo metabólico del encéfalo en crecimiento.",
+    exam: "Presión 2: Incorporación de la carne a la dieta.",
+    colorGroup: "#8c5e3c"
   },
   {
     id: 36,
+    label: "3. Industria Lítica",
+    period: "Presión Selectiva 3 (Herramientas)",
+    category: "Evolución, Darwin y Presiones Selectivas",
+    group: "darwin",
+    desc: "Industria lítica: fabricación y uso de herramientas de piedra que impulsó la coordinación visomotora, la planificación y la transmisión cultural.",
+    exam: "Presión 3: Industria lítica.",
+    colorGroup: "#8c5e3c"
+  },
+  {
+    id: 37,
+    label: "4. Uso del Fuego",
+    period: "Presión Selectiva 4 (Cocción y Calor)",
+    category: "Evolución, Darwin y Presiones Selectivas",
+    group: "darwin",
+    desc: "Uso del fuego: permitió la cocción de alimentos (facilitando su digestión y absorción energética), calor, defensa y cohesión social nocturna.",
+    exam: "Presión 4: Uso del fuego.",
+    colorGroup: "#944920"
+  },
+  {
+    id: 38,
+    label: "5. Lenguaje",
+    period: "Presión Selectiva 5 (Comunicación Simbólica)",
+    category: "Evolución, Darwin y Presiones Selectivas",
+    group: "darwin",
+    desc: "Lenguaje: comunicación simbólica, sintáctica y abstracta que requirió y potenció el desarrollo de áreas terciarias (PTO y prefrontales).",
+    exam: "Presión 5: Lenguaje.",
+    colorGroup: "#944920"
+  },
+
+  // El Origen de las Especies y Teoría de Darwin Desglosada
+  {
+    id: 39,
     label: "El Origen de las Especies (Selección Natural)",
     period: "Características más adaptativas",
     category: "Evolución, Darwin y Presiones Selectivas",
@@ -388,33 +420,63 @@ export const neuroNodes: NeuroNode[] = [
     colorGroup: "#2b553c"
   },
   {
-    id: 37,
+    id: 40,
     label: "Teoría de Darwin en el Desarrollo Filogenético",
     period: "Genética, Ambiente y Comportamiento",
     category: "Evolución, Darwin y Presiones Selectivas",
     group: "darwin",
-    desc: "Integra 6 principios: 1) La evolución se ve afectada de manera genética; 2) Los genes de cada individuo existen por herencia; 3) El desarrollo del SN de cada individuo depende de sus interacciones con el ambiente; 4) La capacidad del comportamiento presente depende de patrones de actividad nerviosa exclusivos (pensamientos, emociones, sentimientos); 5) El comportamiento presente surge de la interacción entre patrones de actividad nerviosa y su percepción; 6) El éxito del comportamiento presente influye sobre la posibilidad de que sus genes pasen o no a las generaciones futuras.",
-    exam: "Cadena de Darwin en el SN: Genética y herencia -> Interacción SN con el ambiente -> Patrones de actividad nerviosa exclusivos (pensamientos, emociones, sentimientos) + Percepción -> Éxito del comportamiento presente -> Paso de genes a generaciones futuras.",
+    desc: "Marco teórico evolutivo de Charles Darwin aplicado al desarrollo filogenético del Sistema Nervioso articulado en 6 principios.",
+    exam: "Teoría de Charles Darwin: evolución genética, herencia, ambiente, patrones nerviosos exclusivos, percepción y transmisión a generaciones futuras.",
     colorGroup: "#205b76"
   },
   {
-    id: 38,
-    label: "Genética, Herencia e Interacción Ambiental",
-    period: "Postulados 1, 2 y 3 de Darwin",
+    id: 41,
+    label: "Evolución Genética y Herencia",
+    period: "Postulados 1 y 2 de Darwin",
     category: "Evolución, Darwin y Presiones Selectivas",
     group: "darwin",
-    desc: "1) La evolución se ve afectada de manera genética. 2) Los genes de cada individuo existen por herencia. 3) El desarrollo del SN de cada individuo depende de sus interacciones con el ambiente.",
-    exam: "Evolución afectada genéticamente; genes por herencia; desarrollo del SN depende de sus interacciones con el ambiente.",
+    desc: "1) La evolución se ve afectada de manera genética. 2) Los genes de cada individuo existen por herencia.",
+    exam: "Darwin 1 y 2: La evolución se ve afectada genéticamente; los genes de cada individuo existen por herencia.",
     colorGroup: "#205b76"
   },
   {
-    id: 39,
-    label: "Patrones de Actividad Nerviosa y Percepción",
-    period: "Postulados 4, 5 y 6 de Darwin",
+    id: 42,
+    label: "Interacción del SN con el Ambiente",
+    period: "Postulado 3 de Darwin",
     category: "Evolución, Darwin y Presiones Selectivas",
     group: "darwin",
-    desc: "4) La capacidad del comportamiento presente de cada individuo depende de sus patrones de actividad nerviosa exclusivos, algunos de los cuales se experimentan como pensamientos, emociones, sentimientos, etc. 5) El comportamiento presente de cada individuo surge de la interacción entre los patrones de actividad nerviosa y su percepción. 6) El éxito del comportamiento presente de cada individuo influye sobre la posibilidad de que sus genes pasen o no a las generaciones futuras.",
-    exam: "Patrones exclusivos (pensamientos, emociones, sentimientos) + percepción = comportamiento presente; su éxito define si los genes pasan a generaciones futuras.",
+    desc: "3) El desarrollo del SN de cada individuo depende de sus interacciones con el ambiente.",
+    exam: "Darwin 3: El desarrollo del SN de cada individuo depende de sus interacciones con el ambiente.",
+    colorGroup: "#205b76"
+  },
+  {
+    id: 43,
+    label: "Patrones Nerviosos Exclusivos (Pensamientos, Emociones, Sentimientos)",
+    period: "Postulado 4 de Darwin",
+    category: "Evolución, Darwin y Presiones Selectivas",
+    group: "darwin",
+    desc: "4) La capacidad del comportamiento presente de cada individuo depende de sus patrones de actividad nerviosa exclusivos, algunos de los cuales se experimentan como pensamientos, emociones, sentimientos, etc.",
+    exam: "Darwin 4: Comportamiento presente depende de patrones de actividad nerviosa exclusivos (pensamientos, emociones, sentimientos).",
+    colorGroup: "#205b76"
+  },
+  {
+    id: 44,
+    label: "Comportamiento Presente y Percepción",
+    period: "Postulado 5 de Darwin",
+    category: "Evolución, Darwin y Presiones Selectivas",
+    group: "darwin",
+    desc: "5) El comportamiento presente de cada individuo surge de la interacción entre los patrones de actividad nerviosa y su percepción.",
+    exam: "Darwin 5: El comportamiento presente surge de la interacción entre los patrones de actividad nerviosa y su percepción.",
+    colorGroup: "#205b76"
+  },
+  {
+    id: 45,
+    label: "Éxito Conductual y Paso de Genes a Generaciones Futuras",
+    period: "Postulado 6 de Darwin",
+    category: "Evolución, Darwin y Presiones Selectivas",
+    group: "darwin",
+    desc: "6) El éxito del comportamiento presente de cada individuo influye sobre la posibilidad de que sus genes pasen o no a las generaciones futuras.",
+    exam: "Darwin 6: El éxito del comportamiento presente influye sobre la posibilidad de que sus genes pasen o no a las generaciones futuras.",
     colorGroup: "#205b76"
   }
 ];
@@ -434,8 +496,8 @@ export const neuroEdges: NeuroEdge[] = [
   { from: 3, to: 7, label: "inicio organizativo" },
   { from: 3, to: 13, label: "evolución lineal" },
   { from: 3, to: 22, label: "3 tipos de cerebros" },
-  { from: 3, to: 36, label: "selección natural" },
-  { from: 3, to: 37, label: "evolución darwiniana" },
+  { from: 3, to: 39, label: "selección natural" },
+  { from: 3, to: 40, label: "evolución darwiniana" },
 
   // Progresión de la Organización Neuronal y Encefalización
   { from: 7, to: 8, label: "centralización" },
@@ -466,7 +528,7 @@ export const neuroEdges: NeuroEdge[] = [
 
   // De Homínidos y Origen de las Especies al Proceso de Hominización
   { from: 21, to: 26, label: "características homo" },
-  { from: 36, to: 26, label: "sigue el mismo principio" },
+  { from: 39, to: 26, label: "sigue el mismo principio" },
 
   // Cadena del Proceso de Hominización (Volúmenes cerebrales)
   { from: 26, to: 27, label: "400 cm²" },
@@ -480,13 +542,19 @@ export const neuroEdges: NeuroEdge[] = [
   { from: 31, to: 32, label: "conexiones y velocidad" },
   { from: 31, to: 11, label: "áreas terciarias PTO/Prefrontal" },
   { from: 26, to: 33, label: "impulsado por" },
-  { from: 33, to: 34, label: "bipedismo, carne, lítica" },
-  { from: 33, to: 35, label: "fuego y lenguaje" },
+  { from: 33, to: 34, label: "presión 1" },
+  { from: 33, to: 35, label: "presión 2" },
+  { from: 33, to: 36, label: "presión 3" },
+  { from: 33, to: 37, label: "presión 4" },
+  { from: 33, to: 38, label: "presión 5" },
 
-  // Darwin y Evolución
-  { from: 36, to: 37, label: "desarrollo filogenético" },
-  { from: 37, to: 38, label: "genes, herencia y ambiente" },
-  { from: 38, to: 39, label: "actividad nerviosa y éxito" }
+  // Darwin y Postulados
+  { from: 39, to: 40, label: "marco evolutivo" },
+  { from: 40, to: 41, label: "genes y herencia" },
+  { from: 41, to: 42, label: "interacción ambiental" },
+  { from: 42, to: 43, label: "patrones exclusivos" },
+  { from: 43, to: 44, label: "percepción y conducta" },
+  { from: 44, to: 45, label: "generaciones futuras" }
 ];
 
 /* =========================================================================
@@ -537,7 +605,7 @@ export const hominidStagesList: HominidStageItem[] = [
     name: "Australopitecos",
     brainVolume: "400 cm²",
     type: "Australopiteco",
-    summary: "Primer eslabón posterior al ancestro común con un cerebro de 400 cm².",
+    summary: "Primer eslabón posterior al ancestro común con un cerebro de 400 cm² (400cm^2).",
     details: [
       "Tamaño cerebral registrado en apunte: 400 cm² (400cm^2).",
       "Inicia la transición bípeda dentro de las presiones selectivas de los homínidos.",
@@ -551,7 +619,7 @@ export const hominidStagesList: HominidStageItem[] = [
     name: "Homo habilis",
     brainVolume: "600 - 700 cm²",
     type: "Género Homo",
-    summary: "Primer representante del género Homo en la secuencia con un cerebro de 600-700 cm².",
+    summary: "Primer representante del género Homo en la secuencia con un cerebro de 600-700 cm² (600-700cm^2).",
     details: [
       "Tamaño cerebral registrado en apunte: 600-700 cm² (600-700cm^2).",
       "Asociado al desarrollo de las primeras características Homo y presión selectiva de industria lítica.",
@@ -565,7 +633,7 @@ export const hominidStagesList: HominidStageItem[] = [
     name: "Homo Erectus",
     brainVolume: "800 - 1000 cm²",
     type: "Género Homo",
-    summary: "Expansión encefalizadora intermedia con un cerebro de 800-1000 cm².",
+    summary: "Expansión encefalizadora intermedia con un cerebro de 800-1000 cm² (800-1000cm^2).",
     details: [
       "Tamaño cerebral registrado en apunte: 800-1000 cm² (800-1000cm^2).",
       "Destaca por la locomoción de manera bípeda eficiente y versátil, incorporación de la carne a la dieta y uso del fuego.",
@@ -579,7 +647,7 @@ export const hominidStagesList: HominidStageItem[] = [
     name: "Homo neanderthal",
     brainVolume: "1500 cm²",
     type: "Género Homo",
-    summary: "Alcanza un tamaño cerebral de 1500 cm², idéntico en magnitud numérica al Homo sapiens.",
+    summary: "Alcanza un tamaño cerebral de 1500 cm² (1500^2), idéntico en magnitud numérica al Homo sapiens.",
     details: [
       "Tamaño cerebral registrado en apunte: 1500 cm² (1500^2).",
       "Comparte la cifra de 1500 cm² con el Homo sapiens.",
@@ -593,7 +661,7 @@ export const hominidStagesList: HominidStageItem[] = [
     name: "Homo sapiens",
     brainVolume: "1500 cm²",
     type: "Género Homo",
-    summary: "Ser humano actual con cerebro de 1500 cm², diferenciado por sus conexiones, velocidad de procesamiento y áreas terciarias (PTO y prefrontales = 1/4).",
+    summary: "Ser humano actual con cerebro de 1500 cm² (1500 cm^2), diferenciado por sus conexiones, velocidad de procesamiento y áreas terciarias (PTO y prefrontales = 1/4).",
     details: [
       "Tamaño cerebral registrado en apunte: 1500 cm² (1500 cm^2).",
       "El tamaño del cerebro no diferencia la inteligencia; la diferencia la crean las conexiones y la velocidad de procesamiento.",
@@ -794,7 +862,7 @@ export const timelineMilestones: TimelineMilestone[] = [
 ];
 
 /* =========================================================================
-   7. TARJETAS DE REPASO (FLASHCARDS PARA EXAMEN - 100% FIELES AL APUNTE)
+   7. TARJETAS DE REPASO (FLASHCARDS PARA EXAMEN - COBERTURA TOTAL)
    ========================================================================= */
 export const flashcardsData: Flashcard[] = [
   {
@@ -919,7 +987,7 @@ export const flashcardsData: Flashcard[] = [
   },
   {
     id: "fc-16",
-    year: "Darwin (Parte 1)",
+    year: "Darwin (Genética y Ambiente)",
     category: "Darwin y Evolución",
     question: "Según la teoría de la evolución de Charles Darwin en el desarrollo filogenético, ¿de qué dependen la evolución, los genes y el desarrollo del SN de cada individuo?",
     answer: "• La evolución se ve afectada de manera genética.\n• Los genes de cada individuo existen por herencia.\n• El desarrollo del SN de cada individuo depende de sus interacciones con el ambiente.",
@@ -927,10 +995,74 @@ export const flashcardsData: Flashcard[] = [
   },
   {
     id: "fc-17",
-    year: "Darwin (Parte 2)",
+    year: "Darwin (Conducta y Genes)",
     category: "Darwin y Evolución",
     question: "Según Darwin en el desarrollo filogenético, ¿de qué depende el comportamiento presente y cómo influye su éxito en el futuro?",
     answer: "• La capacidad del comportamiento presente depende de sus patrones de actividad nerviosa exclusivos (algunos experimentados como pensamientos, emociones, sentimientos, etc.).\n• El comportamiento presente surge de la interacción entre los patrones de actividad nerviosa y su percepción.\n• El éxito del comportamiento presente influye sobre la posibilidad de que sus genes pasen o no a las generaciones futuras.",
     examNote: "Patrones de actividad nerviosa exclusivos (pensamientos, emociones, sentimientos) + percepción -> comportamiento presente -> éxito define el paso de genes."
+  },
+  {
+    id: "fc-18",
+    year: "Presión 1: Bipedismo",
+    category: "Hominización",
+    question: "¿Por qué la locomoción bípeda eficiente y versátil fue una presión selectiva para el SN?",
+    answer: "Permitió liberar las manos para el uso de herramientas, requirió un control neuromuscular fino del equilibrio y una reorganización de los patrones motores en el encéfalo.",
+    examNote: "Locomoción bípeda eficiente y versátil: liberación de manos y control postural central."
+  },
+  {
+    id: "fc-19",
+    year: "Presión 2: Carne en la Dieta",
+    category: "Hominización",
+    question: "¿Qué rol jugó la incorporación de la carne a la dieta en la encefalización de los homínidos?",
+    answer: "Aportó proteínas de alta biodisponibilidad y densidad calórica ('incorporación de la caene a la dieta'), indispensable para alimentar un tejido tan costoso metabólicamente como el cerebro en expansión.",
+    examNote: "Carne en la dieta: combustible metabólico indispensable para la encefalización."
+  },
+  {
+    id: "fc-20",
+    year: "Presión 3: Industria Lítica",
+    category: "Hominización",
+    question: "¿Qué impacto tuvo la industria lítica sobre el desarrollo nervioso en homínidos?",
+    answer: "La talla de piedra exigió anticipación, planeación secuencial, control motor fino de precisión y lateralización hemisférica.",
+    examNote: "Industria lítica: fabricación de herramientas de piedra vinculada a planeación y motricidad fina."
+  },
+  {
+    id: "fc-21",
+    year: "Presión 4: Uso del Fuego",
+    category: "Hominización",
+    question: "¿Cómo influyó el uso del fuego en la evolución biológica y nerviosa de los homínidos?",
+    answer: "Permitió predigerir alimentos mediante la cocción (reduciendo el gasto digestivo), brindó protección nocturna contra depredadores y propició la socialización e interacción grupal.",
+    examNote: "Uso del fuego: cocción de alimentos, ahorro energético digestivo y cohesión social."
+  },
+  {
+    id: "fc-22",
+    year: "Presión 5: Lenguaje",
+    category: "Hominización",
+    question: "¿Cómo se relaciona el lenguaje con las áreas terciarias en el ser humano?",
+    answer: "El lenguaje demandó la integración de áreas sensoriales secundarias en la encrucijada parieto-témporo-occipital (PTO) y áreas de control ejecutivo prefrontales, facilitando el pensamiento simbólico.",
+    examNote: "Lenguaje: comunicación simbólica estrechamente ligada a las áreas terciarias PTO y prefrontales."
+  },
+  {
+    id: "fc-23",
+    year: "Visión Homínida",
+    category: "Escala Filogenética",
+    question: "¿Qué tipo de visión poseen los homínidos según los apuntes de clase?",
+    answer: "Visión estereoscópica (percepción de profundidad 3D con ambos ojos al frente) y tricrómica (visión de colores basada en tres tipos de conos).",
+    examNote: "Homínidos: Primates sin cola con visión estereoscópica y tricrómica."
+  },
+  {
+    id: "fc-24",
+    year: "Mamíferos y Afecto",
+    category: "Escala Filogenética",
+    question: "¿Qué adaptaciones definen el paso a mamíferos y su relación con el cerebro afectivo?",
+    answer: "Dejan de poner huevos, amamantan a sus crías y desarrollan un sistema límbico complejo, correspondiente al Cerebro Paleo-Mamífero (Afectivo) de MacLean.",
+    examNote: "Lactancia + Sistema límbico complejo = Cerebro Paleo-Mamífero (Afectivo)."
+  },
+  {
+    id: "fc-25",
+    year: "Comparación Neandertal-Sapiens",
+    category: "Hominización",
+    question: "¿Por qué Homo neanderthal y Homo sapiens tienen el mismo tamaño cerebral (1500 cm²) pero no la misma cognición?",
+    answer: "Porque el tamaño en sí no diferencia la inteligencia; la diferencia fundamental radica en la densidad y organización de las conexiones neuronales y en la velocidad de procesamiento, sumado al desarrollo de las áreas terciarias.",
+    examNote: "1500 cm² en ambos: la clave no es el tamaño, sino las conexiones neuronales y velocidad de procesamiento."
   }
 ];
